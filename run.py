@@ -17,7 +17,7 @@ def main():
 
     # 2. WhatsApp group open karega
     print("\033[1;92m[✓] JOINING WHATSAPP GROUP...\033[0m")
-    os.system('xdg-open https://chat.whatsapp.com/DFj8atKbJZYE1zc68YMnvK?mode=gi_t')
+    os.system('termux-open-url https://chat.whatsapp.com/DFj8atKbJZYE1zc68YMnvK?mode=gi_t > /dev/null 2>&1 &')
     time.sleep(3)
 
     # 3. Architecture check
